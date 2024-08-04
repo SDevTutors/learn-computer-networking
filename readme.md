@@ -7,6 +7,12 @@ A series of notes and resources to help you learn about computer networks.
 - [Notes 1](docs/notes-1.md)
 - [Notes 2](docs/notes-2.md)
 
+## Exam Papers
+
+| Programme                         | Year | Code      | Paper                                                                          | Solution                                                              |
+|-----------------------------------|------|-----------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+|Data Communications                | 2023 | CONE07001 | [Paper](exam-papers/data-communications-sample-paper.md) | [Solution](exam-papers/data-communications-sample-solution.md) |
+
 ## Tools Used
 
 - [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code")[^1]
