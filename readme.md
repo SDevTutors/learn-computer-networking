@@ -9,9 +9,10 @@ A series of notes and resources to help you learn about computer networks.
 
 ## Exam Papers
 
-| Programme                         | Year | Code      | Paper                                                                          | Solution                                                              |
-|-----------------------------------|------|-----------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-|Data Communications                | 2023 | CONE07001 | [Paper](exam-papers/data-communications-sample-paper.ipynb) | [Solution](exam-papers/data-communications-sample-solution.md) |
+| Programme                    | Year | Code      | Paper                                                                   | Solution                                                                         |
+|------------------------------|------|-----------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Data Communications (Sample) | 2023 | CONE07001 | [Paper](exam-papers/2023-data-communications-sample-cone07001-paper.md) | [Solution](exam-papers/2023-data-communications-sample-cone07001-solution.ipynb) |
+| Data Communications          | 2023 | CONE07001 | [Paper](exam-papers/2023-data-communications-cone07001-paper.md)        | [Solution](exam-papers/2023-data-communications-cone07001-solution.ipynb)        |
 
 ## Tools Used
 
