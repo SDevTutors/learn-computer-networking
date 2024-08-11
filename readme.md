@@ -11,7 +11,7 @@ A series of notes and resources to help you learn about computer networks.
 
 | Programme                         | Year | Code      | Paper                                                                          | Solution                                                              |
 |-----------------------------------|------|-----------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-|Data Communications                | 2023 | CONE07001 | [Paper](exam-papers/data-communications-sample-paper.md) | [Solution](exam-papers/data-communications-sample-solution.md) |
+|Data Communications                | 2023 | CONE07001 | [Paper](exam-papers/data-communications-sample-paper.ipynb) | [Solution](exam-papers/data-communications-sample-solution.md) |
 
 ## Tools Used
 

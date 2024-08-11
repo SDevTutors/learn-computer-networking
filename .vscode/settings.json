@@ -1,9 +1,16 @@
 {
 	"cSpell.words": [
-		"ATMARP",
-		"CSMA",
-		"IGMP",
-		"multicasting",
-		"subnetting"
-	]
+        "ATMARP",
+        "axhline",
+        "axvline",
+        "CSMA",
+        "IGMP",
+        "linewidth",
+        "multicasting",
+        "subnetting",
+        "xlabel",
+        "xlim",
+        "ylabel",
+        "ylim"
+    ]
 }
