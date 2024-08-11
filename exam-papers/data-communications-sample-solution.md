@@ -29,15 +29,15 @@ Please note that where a candidate answers more than the required number of ques
 
 ## Question 1 [Total Marks: 25]
 
-### Question 1(a) [4 Marks]
+### Question 1.A [4 Marks]
 
 Explain the difference between an analogue and a digital signal.  Give two examples of each.
 
-#### Question 1(a) Answer
+### Answer 1.A
 
 An analogue signal is a continuous signal that varies in amplitude and frequency.  Examples of analogue signals include sound waves and light waves.  A digital signal is a discrete signal that has a finite number of values.  Examples of digital signals include binary signals and digital images.
 
-### Question 1(b) [7 Marks]
+### Question 1.B [7 Marks]
 
 A sine wave is described by:
 
@@ -45,7 +45,7 @@ $$y(t) = 2sin(6284t + \frac{\pi}{4}\text{rads})$$
 
 Sketch the sine wave, clearly labelling each axis with appropriate units.
 
-#### Question 1(b) Answer
+### Answer 1.B
 
 The sine wave is sketched below:
 
@@ -55,10 +55,10 @@ The sine wave is sketched below:
 4. **X-axis**: Time (t) in milliseconds
 5. **Y-axis**: Amplitude (V)
 
-To draw the sine wave, 
+To draw the sine wave,
 
 1. Calculate the period of the wave.  The period is given by:
-   $$T = \frac{1}{f} = \frac{1}{1000} = 1ms$$
+   $$T = \frac{1}{f} = \frac{1}{1,000} = 1ms$$
    To draw one wave the x-axis is labelled from 0 to 1ms because the period is 1ms.
 
 2. Calculate the amplitude of the wave.  The amplitude is given by:
