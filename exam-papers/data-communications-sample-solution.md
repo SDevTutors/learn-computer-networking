@@ -3,13 +3,13 @@
 
 ## WINTER EXAMINATIONS
 
-|**MODULE:**  **PROGRAMME(S):** |CONE07001-Data Comms |
-| :- | :- |
-|LC\_KNSMM\_KMY |Bachelor of Science (Honours) Computer Networks and Systems Management |
-| | |
-|**YEAR OF STUDY:**  ** **EXAMINER(S):** | 3 |
-|**TIME ALLOWED:**  |**2.5 HOURS** |
-|**INSTRUCTIONS:**  |**Answer 4 questions. All questions carry equal marks.** |
+| **MODULE:**  **PROGRAMME(S):**          | CONE07001-Data Comms                                                   |
+|:----------------------------------------|:-----------------------------------------------------------------------|
+| LC\_KNSMM\_KMY                          | Bachelor of Science (Honours) Computer Networks and Systems Management |
+|                                         |                                                                        |
+| **YEAR OF STUDY:**  ** **EXAMINER(S):** | 3                                                                      |
+| **TIME ALLOWED:**                       | **2.5 HOURS**                                                          |
+| **INSTRUCTIONS:**                       | **Answer 4 questions. All questions carry equal marks.**               |
 
 **Additional Attachments or Exam Material to accompany this paper:**
 **
@@ -76,6 +76,35 @@ To draw the sine wave,
 
 If the sine wave in part (b) above was sampled at 10kHz, what would be the first 3 sample values?
 
+#### Question 1(c) Answer
+
+The sampling frequency is 10kHz.  The sampling period is given by:
+
+f is written in Hz, so 10KHz = 10,000Hz
+
+$$T_{s} = \frac{1}{f_{s}} = \frac{1}{10,000} = 0.1ms$$
+
+First 3 sample values are at $t_0 = 0$, $t_1 = 0.1ms$ and $t_2 = 0.2ms$.
+
+$$y(t) = 2sin(6284t + \frac{\pi}{4}\text{rads})$$
+
+At $t = 0$  
+$y(0) = 2sin(6284 \times 0 + \frac{\pi}{4}) = 2sin(\frac{\pi}{4}) \approx 1.57$
+
+At $t = 0.1ms$  
+$y(0.1) = 2sin(6284 \times 0.1 + \frac{\pi}{4})$
+$y(0.1) = 2sin(628.4 + \frac{\pi}{4})$
+$y(0.1) \approx 2sin(628.4 + 0.785)$  
+$y(0.1) \approx 2sin(629.185) \approx 1.57$
+
+At $t = 0.2ms$  
+$y(0.2) = 2sin(6284 \times 0.2 + \frac{\pi}{4})$  
+$y(0.2) = 2sin(1256.8 + \frac{\pi}{4})$  
+$y(0.2) \approx 2sin(1257.585)$  
+$y(0.2) \approx 2sin(1257.585) \approx -1.57$
+
+
+
 ### Question 1(d) [8 Marks]
 
 A system generates a 2V peak to peak square wave with a period of 1ms.  Sketch the frequency spectrum of the system output.
@@ -86,21 +115,69 @@ A system generates a 2V peak to peak square wave with a period of 1ms.  Sketch t
 
 Explain the difference between the bit rate and the baud of a system
 
+#### Answer 2(a)
+
+**Bit Rate:**:
+
+- The number of bits transmitted per second (bps).
+
+**Baud Rate:**:
+
+- The number of signal units transmitted per second.
+- Can represent more than one bit per signal unit in higher-order modulation schemes.
+
 ### Question 2(b) [5 Marks]
 
 A system transmits at a bit rate of 1Gbps using 16 signalling levels per symbol.  What is the baud of the system?
+
+#### Answer 2(b)
+
+The baud rate is given by:
+
+$$\text{Baud Rate} = \frac{\text{Bit Rate}}{\log_2(\text{Number of signalling levels})}$$
+
+Substitute the values:
+
+- **Bit Rate (R):** 1Gbps = $1 \times 10^9$ bps
+- **Number of signalling levels (M):** 16
+
+$\text{Baud Rate} = \frac{1 \times 10^9}{\log_2(16)}$  
+$\text{Baud Rate} = \frac{1 \times 10^9}{4} = 250 \times 10^6 \text{baud}$
 
 ### Question 2(c) [4 Marks]
 
 A low pass channel has a bandwidth of 200kHz.  Assuming zero noise, what is the maximum capacity of this channel?
 
+#### Answer 2(c)
+
+The maximum capacity of a channel is given by the Shannon-Hartley theorem:
+
+$$C = B \log_2(1 + \frac{S}{N})$$
+
+Where:
+
+- **B:** Bandwidth of the channel
+- **S:** Signal power
+- **N:** Noise power
+- **C:** Channel capacity
+
+For zero noise, \( N = 0 \):
+
+Since $\frac{S}{0}$ approaches infinity, we have:
+
+$$C = B \log_2(1 + \frac{S}{0}) = B \log_2(\infty) = B \times \infty = \infty$$
+
+However, this is not practical because in real-world scenarios, there is always some noise. For a more realistic approach, consider the case where the signal-to-noise ratio (S/N) is very high but not infinite.
+
+If we assume $\log_2(2) = 1$, the correct formula for zero noise should be:
+
+$$C \approx B \log_2(2) = B \cdot 1 = B$$
+
 ### Question 2(d) [12 Marks]
 
 ![Figure 1](figure-1.jpeg)
 
->Figure 2(d) – Transmission system 
-
-
+>Figure 2(d) – Transmission system
 
 A data transmission system launches 45mW of power into a cable from transmitter, TX.  The cable is 20km in length and has a loss of 2.5dB per kilometre.  The signal is then amplified using an amplifier with 10db gain before being transmitted via a second cable of length 10km with a loss of 2dB per kilometre. What is the received power level in watts at Rx?
 

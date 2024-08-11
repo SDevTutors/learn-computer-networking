@@ -1,7 +1,12 @@
+from numpy import pi, sin
+
+print(2*sin(6284*0 + pi/4))
+print(2*sin(6284*0.1 + pi/4))
+print(2*sin(6284*0.2 + pi/4))
+
 from scipy import signal
 import matplotlib.pyplot as plt
 import numpy as np
-from numpy import pi, sin
 
 #$$y(t) = 2sin(6284t + \frac{\pi}{4}\text{rads})$$
 #Sketch the sine wave, clearly labelling each axis with appropriate units.

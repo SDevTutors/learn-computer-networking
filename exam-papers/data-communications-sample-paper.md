@@ -3,13 +3,13 @@
 
 ## WINTER EXAMINATIONS
 
-|**MODULE:**  **PROGRAMME(S):** |CONE07001-Data Comms |
-| :- | :- |
-|LC\_KNSMM\_KMY |Bachelor of Science (Honours) Computer Networks and Systems Management |
-| | |
-|**YEAR OF STUDY:**  ** **EXAMINER(S):** | 3 |
-|**TIME ALLOWED:**  |**2.5 HOURS** |
-|**INSTRUCTIONS:**  |**Answer 4 questions. All questions carry equal marks.** |
+| **MODULE:**  **PROGRAMME(S):**          | CONE07001-Data Comms                                     |
+|:----------------------------------------|:---------------------------------------------------------|
+| LC_KNSMM_KMY                            | B.Sc. (Honours) Computer Networks and Systems Management |
+|                                         |                                                          |
+| **YEAR OF STUDY:**  ** **EXAMINER(S):** | 3                                                        |
+| **TIME ALLOWED:**                       | **2.5 HOURS**                                            |
+| **INSTRUCTIONS:**                       | **Answer 4 questions. All questions carry equal marks.** |
 
 **Additional Attachments or Exam Material to accompany this paper:**
 **
@@ -67,9 +67,7 @@ A low pass channel has a bandwidth of 200kHz.  Assuming zero noise, what is the 
 
 ![Figure 1](figure-1.jpeg)
 
->Figure 2(d) – Transmission system 
-
-
+>Figure 2(d) – Transmission system
 
 A data transmission system launches 45mW of power into a cable from transmitter, TX.  The cable is 20km in length and has a loss of 2.5dB per kilometre.  The signal is then amplified using an amplifier with 10db gain before being transmitted via a second cable of length 10km with a loss of 2dB per kilometre. What is the received power level in watts at Rx?
 
