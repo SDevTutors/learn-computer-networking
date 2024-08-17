@@ -168,6 +168,54 @@ Explain how bit error detection is achieved in 8B6T coding.
 
 ---
 
+### QUESTION 5
+
+Q 5(a)
+
+[TOTAL MARKS: 25]
+
+[7 Marks]
+Sketch the radiation pattern for a dipole antenna. Ensure that your diagram shows
+the pattern relative to the physical orientation of the dipole.
+
+Q 5(b)
+A receiving antenna for a data communications system operating at 6GHz needs to
+have a gain of 19dB. Determine the physical area of the antenna assuming an
+antenna efficiency n = 0.65.
+
+[7 Marks]
+
+Q 5(c)
+
+Transmit power
+
+Transmit antenna gain
+
+Operating frequency
+
+Receiver sensitivity
+
+least 15dB
+
+[11 Marks]
+
+A free space line of sight point to point wireless link has the following properties
+
+125 mW
+
+14dBd
+
+5.4GHz
+
+Receiver antenna gain 9dBd
+
+-91dBm
+
+Estimate the maximum possible link distance which maintains a link margin of at
+
+is carry equal
+
+
 ## Paper Details
 
 125a50b7
