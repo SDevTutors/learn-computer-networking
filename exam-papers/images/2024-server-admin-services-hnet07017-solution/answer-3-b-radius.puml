@@ -1,0 +1,27 @@
+@startuml
+!define RECTANGLE rectangle
+
+RECTANGLE "Client Devices" as client
+
+RECTANGLE "Access Point (AP)" as AP1
+RECTANGLE "Switch" as Switch1
+RECTANGLE "Router" as Router
+RECTANGLE "Firewall" as Firewall
+RECTANGLE "Internet" as Internet
+
+RECTANGLE "RADIUS Server" as RADIUS
+RECTANGLE "Authentication Database" as AuthDB
+RECTANGLE "DHCP Server" as DHCP
+
+client --> AP1 : "Wi-Fi Connection"
+AP1 --> Switch1 : "Forward Data"
+Switch1 --> Router : "Forward Data"
+Router --> Firewall : "Secure Data"
+Firewall --> Internet : "Internet Access"
+
+Router --> RADIUS : "RADIUS Auth Requests"
+RADIUS --> AuthDB : "Check User Credentials"
+
+Router --> DHCP : "Request IP Address"
+
+@enduml

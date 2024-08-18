@@ -1,0 +1,20 @@
+@startuml
+cloud "Internet" as Internet
+component "Firewall" as FW
+component "Router" as RT
+component "Switch" as SW
+node "Wi-Fi Access Point" as AP
+node "RADIUS Server" as RADIUS
+node "DHCP Server" as DHCP
+database "Authentication DB" as AuthDB
+node "Client Devices" as Client
+
+Internet --> FW
+FW --> RT
+RT --> SW
+SW --> AP
+SW --> RADIUS
+SW --> DHCP
+RADIUS --> AuthDB
+AP --> Client
+@enduml

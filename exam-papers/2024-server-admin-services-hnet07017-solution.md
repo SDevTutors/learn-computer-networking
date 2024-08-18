@@ -174,61 +174,15 @@ To enable a RADIUS-supported Wi-Fi service in a medium to large-sized SME campus
 5. Network Security Appliances: Firewalls, intrusion detection systems (IDS), and intrusion prevention systems (IPS) protect the network from cyber threats and unauthorized access.
 
 ![1723975934129](images/2024-server-admin-services-hnet07017-solution/1723975934129.png)
-> https://cyberhoot.com/cybrary/radius-authentication/
+> <https://cyberhoot.com/cybrary/radius-authentication/>
 
+![answer-3-b-radius](images/2024-server-admin-services-hnet07017-solution/answer-3-b-radius-1.png)
 
-```plantuml
-@startuml
-cloud "Internet" as Internet
-component "Firewall" as FW
-component "Router" as RT
-component "Switch" as SW
-node "Wi-Fi Access Point" as AP
-node "RADIUS Server" as RADIUS
-node "DHCP Server" as DHCP
-database "Authentication DB" as AuthDB
-node "Client Devices" as Client
+[Plant UML code](images/2024-server-admin-services-hnet07017-solution/answer-3-b-radius-1.puml)
 
-Internet --> FW
-FW --> RT
-RT --> SW
-SW --> AP
-SW --> RADIUS
-SW --> DHCP
-RADIUS --> AuthDB
-AP --> Client
-@enduml
-```
+![answer-3-b-radius](images/2024-server-admin-services-hnet07017-solution/answer-3-b-radius.png)
 
-```plantuml
-@startuml
-!define RECTANGLE rectangle
-
-RECTANGLE "Client Devices" as client
-
-RECTANGLE "Access Point (AP)" as AP1
-RECTANGLE "Switch" as Switch1
-RECTANGLE "Router" as Router
-RECTANGLE "Firewall" as Firewall
-RECTANGLE "Internet" as Internet
-
-RECTANGLE "RADIUS Server" as RADIUS
-RECTANGLE "Authentication Database" as AuthDB
-RECTANGLE "DHCP Server" as DHCP
-
-client --> AP1 : "Wi-Fi Connection"
-AP1 --> Switch1 : "Forward Data"
-Switch1 --> Router : "Forward Data"
-Router --> Firewall : "Secure Data"
-Firewall --> Internet : "Internet Access"
-
-Router --> RADIUS : "RADIUS Auth Requests"
-RADIUS --> AuthDB : "Check User Credentials"
-
-Router --> DHCP : "Request IP Address"
-
-@enduml
-```
+[Plant UML code](images/2024-server-admin-services-hnet07017-solution/answer-3-b-radius.puml)
 
 ## Question 4 [Total Marks: 25]
 
