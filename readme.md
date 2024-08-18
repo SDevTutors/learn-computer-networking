@@ -13,6 +13,7 @@ A series of notes and resources to help you learn about computer networks.
 |------------------------------|------|-----------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Data Communications (Sample) | 2023 | CONE07001 | [Paper](exam-papers/2023-data-communications-sample-cone07001-paper.md) | [Solution](exam-papers/2023-data-communications-sample-cone07001-solution.ipynb) |
 | Data Communications          | 2023 | CONE07001 | [Paper](exam-papers/2023-data-communications-cone07001-paper.md)        | [Solution](exam-papers/2023-data-communications-cone07001-solution.ipynb)        |
+| Server Admin: Services       | 2024 | HNET07017 | [Paper](exam-papers/2024-server-admin-services-hnet07017-paper.md)     | [Solution](exam-papers/2024-server-admin-services-hnet07017-solution.md)     |
 
 ## Tools Used
 
