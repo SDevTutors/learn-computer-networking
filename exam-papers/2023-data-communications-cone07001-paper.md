@@ -1,5 +1,5 @@
 
-# Data Communications Winter - CONE07001 - 2023 - Winter - Paper
+# Data Communications - CONE07001 - Exam Paper - 2023 - Winter
 
 ## Question 1 [Total Marks: 25]
 
@@ -168,53 +168,29 @@ Explain how bit error detection is achieved in 8B6T coding.
 
 ---
 
-### QUESTION 5
+## QUESTION 5 [Total Marks: 25]
 
-Q 5(a)
+### Question 5.A (7 Marks)
 
-[TOTAL MARKS: 25]
+Sketch the radiation pattern for a dipole antenna. Ensure that your diagram shows the pattern relative to the physical orientation of the dipole.
 
-[7 Marks]
-Sketch the radiation pattern for a dipole antenna. Ensure that your diagram shows
-the pattern relative to the physical orientation of the dipole.
+### Question 5.B (7 Marks)
 
-Q 5(b)
-A receiving antenna for a data communications system operating at 6GHz needs to
-have a gain of 19dB. Determine the physical area of the antenna assuming an
-antenna efficiency n = 0.65.
+A receiving antenna for a data communications system operating at 6GHz needs to have a gain of 19dB. Determine the physical area of the antenna assuming an antenna efficiency n=0.65.
 
-[7 Marks]
+### Question 5.C (11 Marks)
 
-Q 5(c)
+A free space line of sight point to point wireless link has the following properties:
 
-Transmit power
+| Property              |  Value |
+|-----------------------|-------:|
+| Transmit power        | 125 mW |
+| Transmit antenna gain |  14dBd |
+| Operating frequency   | 5.4GHz |
+| Receiver antenna gain |   9dBd |
+| Receiver sensitivity  | -91dBm |
 
-Transmit antenna gain
-
-Operating frequency
-
-Receiver sensitivity
-
-least 15dB
-
-[11 Marks]
-
-A free space line of sight point to point wireless link has the following properties
-
-125 mW
-
-14dBd
-
-5.4GHz
-
-Receiver antenna gain 9dBd
-
--91dBm
-
-Estimate the maximum possible link distance which maintains a link margin of at
-
-is carry equal
-
+Estimate the maximum possible link distance which maintains a link margin of at least 15dB.
 
 ## Paper Details
 
