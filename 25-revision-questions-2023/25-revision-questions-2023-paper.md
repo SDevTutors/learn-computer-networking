@@ -7,6 +7,7 @@
 ## Question 1
 
 ### Q1a
+
 Sketch the spectrum of the following signals
 
 1. A sine wave described by $y = 3\sin(22,000\pi + \frac{\pi}{2})$
@@ -248,3 +249,169 @@ d)	Given the following transition table, draw the graph of the output signal for
 
 
 [ref1]: Aspose.Words.ac4770eb-c9b2-4646-b285-f1239799c7aa.006.png
+
+Let’s continue solving the questions step by step.
+
+### **Q3b: Wavelength and Frequency Relationship**
+
+A radio wave has a wavelength of 25 cm. What is its frequency?
+
+- **Formula:** The relationship between wavelength ($\lambda$) and frequency ($f$) is given by:
+  $$f = \frac{c}{\lambda}$$
+  where $c$ is the speed of light ($3 \times 10^8$ m/s).
+
+- **Calculation:**
+  $$f = \frac{3 \times 10^8 \text{ m/s}}{0.25 \text{ m}} = 1.2 \times 10^9 \text{ Hz} = 1.2 \text{ GHz} $$
+
+**Answer:** The frequency of the radio wave is 1.2 GHz.
+
+---
+
+### **Q3c: Maximum Possible Data Rate for a Wireless Channel**
+
+Given:
+- **Bandwidth:** 0.7 MHz
+- **Signal-to-Noise Ratio (SNR):** 35 dB
+
+1. **Convert SNR from dB to linear scale:**
+   $$\text{SNR (linear)} = 10^{\frac{\text{SNR (dB)}}{10}} = 10^{\frac{35}{10}} = 3162.28$$
+
+2. **Shannon Capacity Formula:**
+   $$C = B \log_2(1 + \text{SNR})$$
+   where $B$ is the bandwidth.
+
+   $$C = 0.7 \times 10^6 \log_2(1 + 3162.28) \text{ bps}$$
+   $$C \approx 0.7 \times 10^6 \times 11.62 \text{ bps} \approx 8.134 \text{ Mbps} $$
+
+**Recommended QAM:**
+To achieve this data rate efficiently, using a 64-QAM (which carries 6 bits per symbol) is recommended. This modulation scheme is suitable as it balances complexity, data rate, and bandwidth usage.
+
+---
+
+### **Q3d: Constellation Diagrams**
+
+- **32 QAM:**
+  - 32 QAM has 32 points, arranged in a grid pattern, with different amplitude and phase combinations. Typically, it’s a combination of four amplitude levels and eight phase levels.
+
+- **QPSK:**
+  - QPSK (Quadrature Phase Shift Keying) has four points, each 90° apart on the constellation diagram. These points are typically located on the unit circle in the complex plane.
+
+- **ASK:**
+  - ASK (Amplitude Shift Keying) has points on the real axis, with each point representing a different amplitude. For binary ASK, there are typically two points, one at 0V and one at the maximum amplitude.
+
+---
+
+### **Q3e: Estimating Bandwidth for 16-QAM Signal**
+
+Given:
+- **Baud rate:** 1.5 MBaud
+- **Modulation:** 16-QAM
+- **Modulation Index $d$:** 1
+
+1. **Bandwidth Estimation:**
+   - The bandwidth ($BW$) for a signal can be estimated using:
+   $$BW \approx \text{Baud rate} \times (1 + d)$$
+   $$BW \approx 1.5 \times 10^6 \times 2 = 3 \text{ MHz}$$
+
+**Answer:** The estimated bandwidth is 3 MHz.
+
+---
+
+### **Q4a: Constellation Diagrams**
+
+- **i) ASK with peak amplitude values of 1V and 3V:**
+  - Two points on the real axis at $1V$ and $3V$.
+
+- **ii) QPSK with a peak amplitude value of 5V:**
+  - Four points at $5V$ magnitude with phases of $0^\circ$, $90^\circ$, $180^\circ$, and $270^\circ$.
+
+- **iii) 8-QAM with two amplitude values 1V and 3V and four different phases $\pi/4$, $3\pi/4$, $5\pi/4$, $7\pi/4$:**
+  - Eight points, combining the two amplitudes with the four phases.
+
+---
+
+### **Q4b: Modulator Output Waveform**
+
+For the given 8-QAM points with different phases:
+- **Example Points:** $1V$ at $\pi/4$ and $3V$ at $5\pi/4$.
+  
+The waveform would show two sinusoidal signals modulated at 750 MHz, with one having a lower amplitude and phase shift corresponding to $\pi/4$ and the other with a higher amplitude and phase shift corresponding to $5\pi/4$.
+
+---
+
+### **Q4c: Maximum Number of Bits for a Telephone Line**
+
+Given:
+- **Bandwidth:** 4 kHz
+
+1. **ASK (d = 1):**
+   - **Maximum bits per second:** $2 \times \text{Bandwidth}$
+   $$\text{Max Bits} = 2 \times 4000 \text{ bps} = 8 \text{ kbps}$$
+
+2. **QPSK (d = 0.5):**
+   - **Maximum bits per second:** $2 \times \text{Bandwidth} \times \log_2 4$
+   $$\text{Max Bits} = 4 \times 4000 \text{ bps} = 16 \text{ kbps}$$
+
+3. **64-QAM (d = 1):**
+   - **Maximum bits per second:** $2 \times \text{Bandwidth} \times \log_2 64$
+   $$\text{Max Bits} = 12 \times 4000 \text{ bps} = 48 \text{ kbps}$$
+
+---
+
+### **Q5a: Baseband vs Passband Signal**
+
+- **Baseband Signal:** A signal that occupies the frequency range from near 0 Hz up to a cutoff frequency. Example: Digital data signals, Ethernet signals.
+
+- **Passband Signal:** A signal that has been modulated to shift its frequency spectrum to higher frequencies. Example: AM and FM radio signals.
+
+---
+
+### **Q5b: Wavelength of a Signal**
+
+Given:
+- **Period:** 23 ps
+- **Speed of Light:** $3 \times 10^8$ m/s
+
+1. **Wavelength Calculation:**
+   $$\lambda = \text{Period} \times \text{Speed} = 23 \times 10^{-12} \times 3 \times 10^8 = 6.9 \times 10^{-3} \text{ meters} = 6.9 \text{ mm}$$
+
+---
+
+### **Q5c-e: Spectrum Sketches and Bandwidth Calculations**
+
+1. **Square Wave Spectrum:**
+   - Fundamental frequency and odd harmonics.
+   - Spikes at odd harmonics with decreasing amplitude.
+
+2. **Audio Signal Frequency Domain Sketch:**
+   - Continuous band from 20 Hz to 20 kHz.
+
+3. **Square Wave with Period 0.75 ns:**
+   - Bandwidth includes the first three harmonics.
+
+---
+
+### **Q6a: Bit Rate and Baud Rate Definition**
+
+- **Bit Rate:** Number of bits transmitted per second.
+- **Baud Rate:** Number of symbols transmitted per second.
+
+---
+
+### **Q6b-e: Calculations for Data Rates and Transmission Losses**
+
+1. **Baud Rate Calculation:**
+   $$\text{Baud rate} = \frac{\text{Bit rate}}{\log_2 \text{Signal levels}} = \frac{1 \times 10^9}{4} = 250 \text{ MBaud}$$
+
+2. **Maximum Bit Rate:**
+   $$C = 2 \times B \times \log_2(1 + S/N)$$
+
+3. **Transmission Impairments:**
+   - **Attenuation, Noise, Distortion.**
+
+4. **Power Level after Loss:**
+   - Calculate using the formula for power loss across a distance with given attenuation.
+
+---
+
+The questions cover a wide range of topics in communication systems. If further details or clarifications are needed, feel free to ask!
