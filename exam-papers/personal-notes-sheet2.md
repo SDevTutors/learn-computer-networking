@@ -130,16 +130,56 @@
             <th colspan="3">**Frequency Spectrum**</th>
         </tr>
         <tr>
-            <td colspan="3">
+            <td colspan="1">
                 <strong>Signal</strong><br>
                 Sine Wave<br>
                 Square Wave<br>
                 NRZ Data Stream<br>
+            </td>
+            <td colspan="2">
                 <strong>Spectrum</strong><br>
                 Single frequency component<br>
                 Fundamental frequency and odd harmonics<br>
                 DC component and harmonics of the bit rate
             </td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Conversion Table</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Unit</th>
+            <th>Conversion</th>
+            <th>Unit</th>
+            <th>Conversion</th>
+            <th>Unit</th>
+            <th>Conversion</th>
+            <th>Unit</th>
+            <th>Conversion</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1 MHz</td>
+            <td>$1 \times 10^6$ Hz</td>
+            <td>1 kHz</td>
+            <td>$1 \times 10^3$ Hz</td>
+            <td>1 mW</td>
+            <td>$1 \times 10^{-3}$ W</td>
+            <td>1 μW</td>
+            <td>$1 \times 10^{-6}$ W</td>
+        </tr>
+        <tr>
+            <td>1 Gbps</td>
+            <td>$1 \times 10^9$ bps</td>
+            <td>1 Mbps</td>
+            <td>$1 \times 10^6$ bps</td>
+            <td>1 kbps</td>
+            <td>$1 \times 10^3$ bps</td>
+            <td>1 Baud</td>
+            <td>1 symbol per second</td>
         </tr>
     </tbody>
 </table>
